@@ -83,18 +83,3 @@ img{
 h1{
     color: aqua;
 }
-
-.ejemplos{
-   
-        display: flex;
-        gap: 5px;
-        img{
-            width: 50%;
-        }
-        
-
-}
-    
-    
-
-
