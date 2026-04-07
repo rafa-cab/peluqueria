@@ -90,8 +90,10 @@ h1{
         gap: 5px;
         img{
             width: 50%;
+             border: 2px solid black;
         }
-        
+        padding: 2px;
+       
 
 }
     
