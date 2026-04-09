@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleserv.css">
+</head>
+<header>
+        <div class="barra-rrss">
+            <div class="container">
+                <div class="social-icons">
+                    <span>f</span> <span>t</span> <span>y</span> <span>i</span> <span>in</span>
+                </div>
+                <div class="top-links">
+                    <span>📞 90000000</span>
+                    <a href="#">Registro</a>
+                    <a href="#">Acceder</a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <h1>PeluqueriaDaw
+                         <div class="logopelu"><img src="images/logo.png">
+                        </div>
+                    </h1>
+                </div>
+                <ul class="menu-links">
+                    <li><a href="index.html">EMPRESA</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="ofertas.html" class="ofertas">Ofertas</a></li>
+                    <li><a href="#" class="reseñas">Reseñas </a></li>
+                    <li><a href="#">🔍</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<body>
+    <div class ="servicios">
+        <h1>Tipos de Servicios</h1>
+        
+            <div class="servicio">
+                <h2>Corte de cabello</h2>
+                <img src="images/logo.png" alt="Corte de cabello">
+                <p>Descripción del servicio de corte de cabello.</p>
+                <button class="btn-cita">PEDIR CITA</button>
+            </div>
+            <div class="servicio">
+                <h2>Coloración</h2>
+                <img src="images/prueba.jpg.png" alt="Coloración">                
+                <p>Descripción del servicio de coloración.</p>
+                <button class="btn-cita">PEDIR CITA</button>
+            </div>
+            <div class="servicio">
+                <h2>Peinado</h2>
+                <img src="images/prueba2.png" alt="Peinado">                
+                <p>Descripción del servicio de peinado.</p>
+                <button class="btn-cita">PEDIR CITA</button>
+            </div>
+    </div>
+    <section class="reserva-cita">
+    <h2>Selecciona tu Cita</h2>
+    
+    <div class="reserva-contenedor">
+        <div class="campo-reserva">
+            <label for="fecha">Selecciona el día:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+
+        <div class="campo-reserva">
+            <label for="hora">Horas disponibles:</label>
+            <select id="hora" name="hora">
+                <option value="09:00">09:00 AM</option>
+                <option value="10:00">10:00 AM</option>
+                <option value="11:00">11:00 AM</option>
+                <option value="12:00">12:00 PM</option>
+                <option value="13:00">01:00 PM</option>
+                <option value="16:00">04:00 PM</option>
+                <option value="17:00">05:00 PM</option>
+                <option value="18:00">06:00 PM</option>
+                <option value="19:00">07:00 PM</option>
+            </select>
+        </div>
+
+        <button class="btn-cita">CONFIRMAR CITA</button>
+    </div>
+    </section>
+</body>
+</html>

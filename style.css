@@ -96,6 +96,68 @@ h1{
        
 
 }
+.salones-section {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Contenedor del título con el texto de fondo */
+.header-container {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.bg-text {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.03); /* Color muy tenue */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin: 0;
+    color: #333;
+}
+
+.underline {
+    width: 150px;
+    height: 3px;
+    background-color: #f1c40f; /* Color amarillo/dorado */
+    margin: 10px auto;
+}
+
+/* Párrafos */
+.content-container {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.content-container p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Imagen inferior */
+.image-container img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
     
     
 
