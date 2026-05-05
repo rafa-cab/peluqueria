@@ -91,7 +91,7 @@ h1{
     width: 85%;
     margin: 0 auto;
     padding: 40px 20px;
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco con 10% de opacidad */
+    background-color: rgba(255, 255, 255, 0.406); /* Fondo blanco con 10% de opacidad */
     backdrop-filter: blur(5px); /* Opcional: efecto de desenfoque detrás */
     border-radius: 20px;
     
@@ -124,7 +124,7 @@ h1{
     padding: 20px;
 }
 .servicio:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo al pasar el ratón */
+    background-color: rgba(156, 28, 28, 0.2); /* Color de fondo al pasar el ratón */
     border-color: #ffd700; /* Cambia el color del borde (ejemplo: dorado) */
     transform: translateY(-5px); /* Pequeño salto hacia arriba */
 }
@@ -172,7 +172,7 @@ h1{
     width: 85%;
     margin: 40px auto;
     padding: 30px;
-    background-color: rgba(156, 19, 19, 0.859);
+    background-color: rgba(204, 18, 217, 0.119);
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
